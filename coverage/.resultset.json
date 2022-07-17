@@ -242,12 +242,30 @@
         "lines": [
           1,
           null,
+          1,
           null
         ]
       },
       "/Users/johnsantosuosso/dark-dream-4209/dark-dream-4209/app/helpers/application_helper.rb": {
         "lines": [
           1,
+          null
+        ]
+      },
+      "/Users/johnsantosuosso/dark-dream-4209/dark-dream-4209/spec/models/ingredient_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          2,
+          2,
+          null,
+          null,
+          1,
+          2,
+          2,
+          null,
           null
         ]
       },
@@ -317,8 +335,23 @@
           1,
           null
         ]
+      },
+      "/Users/johnsantosuosso/dark-dream-4209/dark-dream-4209/app/controllers/recipes_controller.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/johnsantosuosso/dark-dream-4209/dark-dream-4209/app/controllers/application_controller.rb": {
+        "lines": [
+          1,
+          null
+        ]
       }
     },
-    "timestamp": 1658090362
+    "timestamp": 1658091301
   }
 }
