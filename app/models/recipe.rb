@@ -7,4 +7,8 @@ class Recipe < ApplicationRecord
   def total_cost
     ingredients.sum(:cost)
   end
+
+  def self.alphabetize_recipes_by_name
+    order(name: :asc)
+  end
 end

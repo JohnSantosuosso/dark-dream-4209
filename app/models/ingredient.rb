@@ -8,4 +8,8 @@ class Ingredient < ApplicationRecord
     self.recipes.count
   end
 
+  def self.alphabetize_ingredients_by_name
+    order(name: :asc)
+  end
+
 end
