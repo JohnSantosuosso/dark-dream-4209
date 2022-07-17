@@ -4,7 +4,6 @@ class RecipesController < ApplicationController
   end
 
   def show
-    require 'pry'; binding.pry 
     @recipe = Recipe.find(params[:id])
   end
 
