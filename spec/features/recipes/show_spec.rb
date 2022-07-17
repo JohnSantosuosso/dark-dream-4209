@@ -23,5 +23,8 @@ RSpec.describe "Recipe show", type: :feature do
     expect(page).to have_content("Meat")
     expect(page).to have_content("Cheese")
     expect(page).to_not have_content("Salsa")
+    expect(page).to_not have_content("Burrito Ingredients")
+
+    expect(page).to have_content("Total Cost: 45")
   end
 end
